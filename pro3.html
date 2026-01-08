@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>amazon</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  
+  
+  <nav class="navbar bc2">
+    <div class="container-fluid justify-content-evenly p-0">
+      <button class="navbar-toggler d-block d-md-none " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars tc1 ts24"></i>
+      </button>
+      <a class="navbar-brand m-2 order-md-start element" href="#">
+        <img src="/pictures/logo.png" width="80px" height="30px" alt = "sample image">
+      </a>
+      <a class="nav-link d-block d-md-none element tc1" href="#">
+        <span class="twn ts13">Sign in</span>
+        <i class="fa-solid fa-angle-right ts13"></i>
+        <i class="fa-regular fa-user twbr ts24 "></i>
+      </a>
+      <a href="#" class="nav-link  p-1 order-md-last element " aria-label="Cart">
+        <i class="fa-solid fa-cart-shopping tc1 ts24" ></i>
+      </a>
+      <div class="d-none d-md-block p-1 order-md-1 element">
+        <a class="nav-link active d-flex align-items-center" aria-current="page" href="#">
+          <i class="fa-solid fa-location-dot tc4 ts20"></i>
+          <div class="d-flex flex-column align-items-center">
+            <span class="ts13 twn tc4">delivery at 411033</span>
+            <span class="ts16 twbr tc1">Update location</span>
+          </div>
+        </a>
+      </div>
+      <form class="d-flex my-2 mx-3 order-md-3" role="search">
+        <div class="btn dropdown rounded-0 rounded-start bc5">
+          <button class="nav-link dropdown-toggle p-0 tc3 " type="button"  data-bs-toggle="dropdown" aria-expanded="false">
+            All
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+        <input class="form-control rounded-0 bc1 tc3" type="search" placeholder="Search" aria-label="Search" />
+        <button class="btn rounded-0 rounded-end tc2 bc6" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>
+      <div class="d-flex nav-link d-none d-md-block order-md-3 element">
+        <div class="dropdown">
+          <button type="button" class="btn dropdown-toggle tc4" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+            <img src="/pictures/flag.png" width="20px"  alt = "sample image">
+            <span class="twbr tc1 ts16">EN</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">hindi</a></li>
+            <li><a class="dropdown-item" href="#">marathi</a></li>
+            <li><a class="dropdown-item" href="#">tamil</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex flex-column justify-content-center p-1 d-none d-md-block order-md-4 element tc1">
+        <a class="ts13 twn nav-link p-0" href="#">hello,sign in</a>
+        <div class="dropdown ">
+          <button type="button" class="btn dropdown-toggle p-0 tc4" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+            <span class="ts16 twbr">Accounts & lists </span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"></a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-none d-md-block order-md-5 element p-1 ">
+        <a class="nav-link d-flex flex-column tc1">
+          <span class="ts13 twn">Returns</span>
+          <span class="ts16 twbr">& orders</span>
+        </a>
+      </div>
+      <div class="container-fluid d-flex justify-content-start d-block d-md-none pb-2 tc1">
+        <a href="#" class="nav-link px-2 d-flex flex-column  element">
+          <span class="ts13 twn">Shop by</span>
+          <span class="ts16 twbr">Category</span>
+        </a>
+        <a href="#" class="nav-link ts16 twbr px-2 element">deals</a>
+        <a href="#" class="nav-link ts16 twbr  px-2 element ">sell</a>
+      </div>
+    </div>
+  </nav>
+  <nav class=" navbar bc3">
+    <div class="container-fluid d-flex justify-content-md-evenly tc1">
+      <button class="navbar-toggler d-none d-md-block p-2 element border-0 tc1" type="button" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars ts16"></i>
+        <span class="ts16">All</span>
+      </button>
+      <a href="#" class="nav-link p-2 ts13 twn d-none d-md-block element">Fresh</a>
+      <a href="#" class="nav-link p-2 ts13 twn d-none d-md-block element">MX player</a>
+      <a href="#" class="nav-link p-2 ts13 twn d-none d-md-block element">sell</a>
+      <a href="#" class="nav-link p-2 ts13 twn d-none d-md-block element">Bestsellers</a>
+      <a href="#" class="nav-link p-2 ts13 twn d-none d-md-block element">Mobiles</a>
+      <a href="#" class="nav-link p-2 ts13 twn d-none d-md-block element">Today's deals</a>
+      <a href="#" class="nav-link p-2 ts13 twn d-none d-md-block element">Customer Service</a>
+      <a href="#" class="nav-link p-2 ts13 twn d-none d-md-block element">Prime</a>
+      <a href="#" class="nav-link p-2 ts13 twn d-none d-md-block element">New Release</a>
+      <a href="#" class="nav-link p-2 ts13 twn d-none d-md-block element">Amazon pay</a>
+      <a href="#" class="nav-link p-2 ts13 twn d-none d-md-block element">Fashion</a>
+      <a href="#" class="nav-link d-block d-md-none p-2 ts13 twn element" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+      
+        <i class="fa-solid fa-location-dot"></i>
+        <span class="">Deliver to Pimpri Chinchwad 411033</span>
+        <i class="fa-solid fa-angle-down"></i>
+        
+      </a>
+    </div>
+  </nav>
+  <main id="home">
+    <div  class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner fade-bottom d-none d-md-block">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="/pictures/pic1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/pictures/pic2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/pictures/pic3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/pictures/pic4.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/pictures/pic5.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      
+    </div>
+    <div class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner d-block d-md-none p-3">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <div class="card h-100 shadow-sm p-3">
+            <img src="/pictures/shoes.jpg" class="card-img-top p-1" alt = "sample image">
+            <div class="card-body">
+              <h5 class="card-title">Shoes</h5>
+              <p class="card-text">Trendy and sporty shoes on sale</p>
+              <p class="card-text h4 my-2 py-1">starting from ₹299 only</p>
+              <a href="#" class="btn btn-primary">See more</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item " data-bs-interval="2000">
+          <div class="card h-100 shadow-sm p-3">
+            <img src="/pictures/smartphone.jpg" class="card-img-top p-1" alt = "sample image">
+            <div class="card-body">
+              <h2 class="card-title">Smartphone</h2>
+              <p class="card-text">Variety of branded smartphones with heavy discount starting <span class="h6 fw-bold">From ₹10,000 </span></p>
+              <p class="card-text h4 my-2 py-1">Upto 35% off</p>
+              <a href="#" class="btn btn-primary">see more</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <div class="card h-100 shadow-sm p-3">
+            <img src="/pictures/outfit.jpg" class="card-img-top p-1" alt = "sample image">
+            <div class="card-body">
+              <h2 class="card-title">Ethnic outfits</h2>
+              <p class="card-text">Stylish and Asthetic outfits for both men and women</p>
+              <p class="card-text h4 my-2 ">Just ₹599
+              <p class="card-text h5 ">special off on credit cards</p>
+              </p>
+              <a href="#" class="btn btn-primary">See more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid cards-overlap z-3 d-none d-md-block">
+      <div class="row justify-content-md-evenly g-4">
+        
+        <div class="col-12 col-md-4">
+          <div class="card h-100 shadow-sm p-3">
+            <img src="/pictures/smartphone.jpg" class="card-img-top p-1" alt = "sample image">
+            <div class="card-body">
+              <h2 class="card-title">Smartphone</h2>
+              <p class="card-text">Variety of branded smartphones with heavy discount starting <span class="h6 fw-bold">From ₹10,000 </span></p>
+              <p class="card-text h4 my-2 py-1">Upto 35% off</p>
+              <a href="#" class="btn btn-primary">see more</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-md-4">
+          <div class="card h-100 shadow-sm p-3">
+            <img src="/pictures/outfit.jpg" class="card-img-top h-50 p-1" alt = "sample image">
+            <div class="card-body">
+              <h2 class="card-title">Ethnic outfits</h2>
+              <p class="card-text">Stylish and Asthetic outfits for both men and women</p>
+              <p class="card-text h4 my-2 ">Just ₹599</p>
+              <p class="card-text h5 ">special off on credit cards</p>
+              <a href="#" class="btn btn-primary position-absolute bottom-0 mb-5">See more</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-md-4">
+          <div class="card h-100 shadow-sm p-3">
+            <img src="/pictures/shoes.jpg" class="card-img-top h-50 p-1" alt = "sample image">
+            <div class="card-body">
+              <h5 class="card-title">Shoes</h5>
+              <p class="card-text">Trendy and sporty shoes on sale</p>
+              <p class="card-text h4 my-2 py-1">starting from ₹299 only</p>
+              <a href="#" class="btn btn-primary position-absolute bottom-0 mb-5">See more</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </main>
+  <footer>
+    <section class="bc4 py-3 ">
+      <a href="#home" class="btn d-block text-decoration-none t1 text-center tc1 twbr">Back to top</a>
+    </section>
+    <section class="bc3">
+      <div class="container-fluid py-5 d-none d-md-block">
+        <div class="row">
+          <div class="col-3">
+            <p class="twbr ts16 tc1">Get to know us</p>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">about amazon</a>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">careers</a>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">Press releases</a>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">Amazon science</a>
+            
+          </div>
+          <div class="col-3">
+            <p class="twbr ts16 tc1">Connect with us</p>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">Facebook</a>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">Twitter</a>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">Instagram</a>
+          </div>
+          <div class="col-3">
+            <p class="twbr ts16 tc1">Make money with us</p>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">Sell on Amazon</a>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">Sell under Amazon accelerator</a>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">Protect and build your brand</a>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">Amazon global selling</a>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">Supply to amazon</a>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">Become an affiliate</a>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">fulfillment by Amazon</a>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">Advertise your product</a>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">Amazon pay on merchants</a>
+          </div>
+          <div class="col-3">
+            <p class="twbr ts16 tc1"> Let us help you</p>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">Your account</a>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">Return centre</a>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">Recalls and product safety alerts</a>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">100% purchase protection</a>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">Amazon app download</a>
+            <a href="#" class="ts13 twn tc1 text-decoration-none d-block m-2">help</a>
+          </div>
+        </div>
+      </div>
+      <div class="py-4 d-md-flex justify-content-center d-none d-md-block" style="border-top : 1px solid #5e6b7a">
+        <img class="mx-5" width="80px" src="/pictures/logo.png" alt = "sample image">
+        <div class="dropdown d-inline m-2">
+          <button type="button" class="btn dropdown-toggle dropdown-toggle tc4 border border-1 border-light" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+            <span class="twbr tc1 ts16">English</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">hindi</a></li>
+            <li><a class="dropdown-item" href="#">marathi</a></li>
+            <li><a class="dropdown-item" href="#">tamil</a></li>
+          </ul>
+        </div>
+        <div class="dropdown d-inline m-2">
+          
+          <button type="button" class="btn tc4 border border-1 border-light" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+            <img src="/pictures/flag.png" width="20px" alt = "sample image">
+            <span class="twbr tc1 ts16">India</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Australia</a></li>
+            <li><a class="dropdown-item" href="#">Japan</a></li>
+            <li><a class="dropdown-item" href="#">canada</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container-fluid p-3 d-block d-md-none">
+        <div class="row">
+          <div class="col-6">
+            <a href="#" class="ts16  tc1 text-decoration-none d-block">Your Amazon.in</a>
+            <br>
+            <a href="#" class="ts16  tc1 text-decoration-none d-block">Amazon Pay</a>
+            <br>
+            <a href="#" class="ts16  tc1 text-decoration-none d-block">Amazon Live</a>
+            <br>
+            <a href="#" class="ts16  tc1 text-decoration-none d-block">Your Account</a>
+            <br>
+            <a href="#" class="ts16  tc1 text-decoration-none d-block">Your Returns</a>
+            <br>
+            <a href="#" class="ts16  tc1 text-decoration-none d-block">Sell</a>
+          </div>
+          <div class="col-6">
+            <a href="#" class="ts16  tc1 text-decoration-none d-block">Your Orders</a>
+            <br>
+            <a href="#" class="ts16  tc1 text-decoration-none d-block">Amazon App <br> Download</a>
+            <br>
+            <a href="#" class="ts16  tc1 text-decoration-none d-block">Your Lists</a>
+            <br>
+            <a href="#" class="ts16  tc1 text-decoration-none d-block">Your Recently Viewed <br> Items</a>
+            <br>
+            <a href="#" class="ts16  tc1 text-decoration-none d-block">Recalls and Product <br> Safety Alerts</a>
+            <br>
+            <a href="#" class="ts16  tc1 text-decoration-none d-block">Customer Service</a>
+            <br>
+            <a href="#" class="ts16  tc1 text-decoration-none d-block"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bc2">
+      
+      <div class="container-fluid pt-5 pb-3 d-none d-md-block">
+        <div class="row ">
+          <div class="col-2">
+            <a href="#" class="text-decoration-none tc1 ts13 d-block">AbeBooks</a>
+            <a href="#" class="text-decoration-none tc4 ts13">Books,&nbsp art <br> & collectibles</a>
+            
+          </div>
+          <div class="col-2">
+            <a href="#" class="text-decoration-none tc1 ts13 d-block">Amazon Web Services</a>
+            <a href="#" class="text-decoration-none tc4 ts13">Scalable Cloud <br> Computing Services</a>
+            
+          </div>
+          <div class="col-2">
+            <a href="#" class="text-decoration-none tc1 ts13 d-block">Audible</a>
+            <a href="#" class="text-decoration-none tc4 ts13">Download <br> Audio books</a>
+            
+          </div>
+          <div class="col-2">
+            <a href="#" class="text-decoration-none tc1 ts13 d-block">IMDb</a>
+            <a href="#" class="text-decoration-none tc4 ts13">Movies, &nbsp; TV <br> & Celebrities</a>
+          </div>
+        </div>
+        <br>
+        
+        <div class="row">
+          <div class="col-2">
+            <a href="#" class="text-decoration-none tc1 ts13 d-block">Shopbop</a>
+            <a href="#" class="text-decoration-none tc4 ts13">Designer <br> Fashion Brands </a>
+          </div>
+          <div class="col-2">
+            <a href="#" class="text-decoration-none tc1 ts13 d-block ">Amazon Business</a>
+            <a href="#" class="text-decoration-none tc4 ts13">Everything For <br> Your Business</a>
+          </div>
+          <div class="col-2">
+            <a href="#" class="text-decoration-none tc1 ts13 d-block">Amazon Prime Music</a>
+            <a href="#" class="text-decoration-none tc4 ts13">100 million songs, <br> ad-free <br> Over 15 million podcast <br> episodes</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class=" pt-3 pb-5 d-flex flex-column justify-content-center align-items-center">
+        <a href="#" class="py-3 d-block d-md-none ts16 twbr tc1 text-decoration-none">Already a customer? Sign in</a>
+        <a href="#" class="ts11 tc4 text-decoration-none">
+          Conditions of Use & Sale &nbsp;&nbsp;&nbsp; Privacy &nbsp;&nbsp;&nbsp; Notice Interest-Based Ads
+        </a>
+        <a href="#" class="ts11 tc4 text-decoration-none">
+          © 1996-2025, Amazon.com, Inc. or its affiliates
+        </a>
+      </div>
+    </section>
+  </footer>
+  <section>
+    <div class="offcanvas offcanvas-start text-bg-dark " tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body small">
+        ...
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
+</html>
